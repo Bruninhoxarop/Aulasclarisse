@@ -1,0 +1,17 @@
+:root{
+    --preto-87: rgba(0, 0, 0, 0.87);
+}
+
+html {
+    color-scheme: dark;
+}
+
+[modo-light="light"] {
+    color-scheme: light;
+    --preto-87: rgba(255, 255, 255, 0.87);
+}
+
+[modo-dark="dark"] {
+    color-scheme: dark;
+    --preto-87: rgba(0, 0, 0, 0.87);
+}
