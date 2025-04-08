@@ -67,6 +67,7 @@ function classificação() {
     alert("Idoso");
   }
 }
+//OUUUU coloco idade > 59 (idade menor que 59, já que abaixo de 18 é menor mesmo)
 
 //Q6
 function resultadofinal() {
@@ -111,7 +112,7 @@ function desconto() {
   let valordecompra = parseFloat(prompt("Qual o valor do produto ?"));
   let dez = valordecompra * 0.1;
   let cinco = valordecompra * 0.05;
-  if (valordecompra >= 100) {
+  if (valordecompra > 100) {
     alert("Pagará R$" + (valordecompra - dez));
   } else if ((valordecompra >= 50) & (valordecompra <= 100)) {
     alert("Pagará R$" + (valordecompra - cinco));
@@ -139,4 +140,26 @@ function bissexto() {
   if (ano % 4 == 0) {
     alert("Esse ano é bissexto");
   } else alert("Esse ano não é bissexto");
+}
+//(ano % 4==0 && ano % 100 !=0 || ano % 400 == 0) (!= significa "diferente") (|| significa "ou")
+
+function imc2() {
+  let peso2 = parseFloat(prompt("informe o seu peso"));
+  let altura2 = parseFloat(prompt("informe a sua altura"));
+  let imc2 = peso2 / altura2 ** 2;
+  alert("Seu IMC " + imc2.toFixed(1));
+
+  if (imc2 < 18.5) {
+    alert("Abaixo do peso");
+  } else if (imc2 >= 18.5 && imc2 <= 24.9) {
+    alert("Peso ideal");
+  } else if (imc2 >= 25 && imc2 <= 29.9) {
+    alert("Levemente acima do peso");
+  } else if (imc2 >= 30 && imc2 <= 34.9) {
+    alert("Obesidade grau I");
+  } else if (imc2 >= 35 && imc2 <= 39.9) {
+    alert("Obesidade grau II (severa)");
+  } else {
+    alert("Obesidade III (mórbida)");
+  }
 }
