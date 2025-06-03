@@ -56,6 +56,13 @@ function potencia() {
   alert("A potência ao quadrado de " + numero + " é: " + potencia);
 }
 
+// function mostrarNomes() {
+// let nomes = ["Ana", "Carlos", "Beatriz"];
+// for (let i = 0; i < nomes.length; i++) {
+// alert("Nome: " + nomes[i]);
+// }
+// }
+
 //Q5
 function mostrarNomes() {
   let nomes = ["Ana", "Carlos", "Beatriz", "João", "Pedro"];
@@ -64,6 +71,16 @@ function mostrarNomes() {
     alert("Nome: " + nomes[i]);
   }
 }
+
+// function cadastrarPessoas() {
+//   let quantidade = Number(prompt("Quantas pessoas quer cadastrar?"));
+//   let pessoas = [];
+//   for (let i = 0; i < quantidade; i++) {
+//     let nome = prompt("Digite o nome da pessoa " + (i + 1) + ":");
+//     pessoas.push(nome);
+//   }
+//   alert("Pessoas cadastradas: " + pessoas.join(", "));
+// }
 
 //Q6
 function cadastrarPessoas() {
@@ -81,4 +98,139 @@ function cadastrarPessoas() {
     alert("Pessoa cadastrada " + pessoas[i]);
   }
   //length retorna o nome em vez de caracteres por causa do [i]. [i] seria um array, array é uma caixa de textos basicamente
+}
+
+// function contar() {
+//   let limite = Number(prompt("Digite até qual número deseja contar:"));
+//   for (let i = 1; i <= limite; i++) {
+//     alert("Número: " + i);
+//   }
+// }
+
+//Q7
+function contar() {
+  let numero = Number(prompt("Digite em qual número começar:"));
+  for (let i = numero; i >= 1; i--) {
+    alert("Número: " + i);
+  }
+}
+
+// function calculadora() {
+// let operacao = prompt("Escolha a operação: +, -, *, /");
+// let num1 = Number(prompt("Digite o primeiro número:"));
+// let num2 = Number(prompt("Digite o segundo número:"));
+// let resultado;
+// if (operacao === "+") {
+// resultado = num1 + num2;
+// } else if (operacao === "-") {
+// resultado = num1 - num2;
+// } else if (operacao === "*") {
+// resultado = num1 * num2;
+// } else if (operacao === "/") {
+// if(num2 !== 0) {
+// resultado = num1 / num2;
+// } else {
+// resultado = "Divisão por zero não é permitida.";
+// }
+// } else {
+// resultado = "Operação inválida.";
+// }
+// alert("Resultado: " + resultado);
+// }
+
+//Q8
+function calculadora() {
+  let operacao = prompt("Escolha a operação: +, -, *, ^, /");
+  let num1 = Number(prompt("Digite o primeiro número:"));
+  let num2 = Number(prompt("Digite o segundo número:"));
+  let resultado;
+  if (operacao === "+") {
+    resultado = num1 + num2;
+  } else if (operacao === "-") {
+    resultado = num1 - num2;
+  } else if (operacao === "*") {
+    resultado = num1 * num2;
+  } else if (operacao === "^") {
+    resultado = Math.pow(num1, num2);
+  } else if (operacao === "/") {
+    if (num2 !== 0) {
+      resultado = num1 / num2;
+    } else {
+      resultado = "Divisão por zero não é permitida.";
+    }
+  } else {
+    resultado = "Operação inválida.";
+  }
+  alert("Resultado: " + resultado);
+}
+
+// function validarSenha() {
+// let senhaCorreta = "12345";
+// let tentativa = prompt("Digite a senha:");
+// if (tentativa === senhaCorreta) {
+// alert("Acesso permitido.");
+// } else {
+// alert("Acesso negado.");
+// }
+// }
+
+//Q9
+function validarSenha() {
+  let senhaCorreta = "12345";
+  let tentativa;
+  let limite = 2;
+
+  // while (limite >= 0) {
+  //   tentativa = prompt("Digite a senha:");
+  //   if (tentativa === senhaCorreta) {
+  //     alert("Acesso permitido.");
+  //     break;
+  //   } else if (limite === 0) {
+  //     alert("Tentativas esgotadas");
+  //     break;
+  //   } else {
+  //     alert("Acesso negado.");
+  //     limite--;
+  //   }
+  // }
+
+  for (i = limite; i >= 0; i--) {
+    tentativa = prompt("Digite a senha:");
+    if (tentativa === senhaCorreta) {
+      alert("Acesso permitido.");
+      break;
+    } else if (i === 0) {
+      alert("Tentativas esgotadas");
+    } else {
+      alert("Acesso negado.");
+    }
+  }
+}
+
+// function mediaNotas() {
+// let quantidade = Number(prompt("Quantas notas quer inserir?"));
+// let soma = 0;
+// for (let i = 1; i <= quantidade; i++) {
+// let nota = Number(prompt("Digite a nota " + i + ":"));
+// soma += nota;
+// }
+// let media = soma / quantidade;
+// alert("A média das notas é: " + media.toFixed(2));
+// }
+
+//Q10
+function mediaNotas() {
+  let quantidade = Number(prompt("Quantas notas quer inserir?"));
+  let soma = 0;
+  for (let i = 1; i <= quantidade; i++) {
+    let nota = Number(prompt("Digite a nota " + i + ":"));
+    soma+=nota;
+  }
+  let media = soma / quantidade;
+  alert("A média das notas é: " + media.toFixed(2));
+  if (media >= 7) {
+    alert("Aprovado");
+  } else {
+    alert("Reprovado");
+  }
 }
