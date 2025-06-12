@@ -118,9 +118,7 @@
 
     <button onclick="mostrarHora()">Mostrar hora</button> <br />
     <button onclick="numeroAleatorio()">Número aleatorio</button> <br />
-    <button onclick="numeroAleatorio2()">Número Aleatório2</button> <br />
-    <button onclick="raizQuadrada()">Raiz Quadrada</button> <br />
-    <button onclick="raizQuadrada2()">Raiz Quadrada2</button> <br />
+    <button onclick="raizQuadrada()">Número selecionado</button> <br />
     <button onclick="potencia()">Potência</button> <br />
     <button onclick="mostrarNomes()">Mostrar Nomes</button> <br />
     <button onclick="cadastrarPessoas()">Cadastrar Pessoas</button> <br />
@@ -132,10 +130,29 @@
     <h1>Calculadora de IMC</h1>
     <br />
 
-    Massa <input type="text" id="massa" /> <br />
-    Altura <input type="text" id="altura" /> <br />
-    <button onclick="imc()">Calcular IMC</button>
+    Massa <input type="number" id="massa" placeholder="Ex: 70" /> <br />
+
+    Altura <input type="number" id="altura" placeholder="Ex: 1.70" /> <br />
+    <!--cria uma caixa de texto do tipo número para pôr informações, com a Id "altura".-->
+
+    <button onclick="imc()">Calcular IMC</button> <br />
+
+    <!--opção 1-->
+    <!--<h2 id="resultado"></h2> <br>-->
+
+    <!--opção 2-->
     Resultado <input type="text" id="resultado" />
+
+    <h1>Input</h1>
+    <br />
+
+    <label for="">Informe o número aqui</label>
+    <!--'label' um input mais personalizável-->
+    <input type="number" id="numero" />
+    <button onclick="calcularRaiz()"></button>
+    <br />
+    <label for="">Resultado</label>
+    <input type="number" id="resultado" />
 
     <script src="Exercícios.js"></script>
     <script src="Ficha1.js"></script>
