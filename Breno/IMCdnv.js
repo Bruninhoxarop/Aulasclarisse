@@ -1,4 +1,4 @@
-function imc() {
+function imcCal() {
   //let varia, const n varia, um texto fixo.
 
   const massa = parseFloat(document.getElementById("massa").value);
@@ -7,5 +7,6 @@ function imc() {
   //pegar o conteúdo (valor) escrito no html no input ou label com o mesmo Id.
   const imc = massa / Math.pow(altura, 2);
   //const resultado = document.getElementById("resultado");
-  resultado.value = imc.toFixed(2);
+  document.getElementById("resultado").value = imc.toFixed(2)
+  //Define o valor do input com id "resultado" como o imc do cálculo.
 }
