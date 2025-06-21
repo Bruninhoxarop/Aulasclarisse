@@ -15,7 +15,7 @@
     <input type="text" id="resultado" />
     <button onclick="calcRaiz()">Calcular</button> <br />
 
-    <h2>Para qual seleção você torce?</h2>
+    <h1>Para qual seleção você torce?</h2>
     <p>
       1 - Brasil <br />
       2 - Paraguai <br />
@@ -24,9 +24,27 @@
 
     <input type="number" id="selecao" placeholder="Digite 1, 2 ou 3" />
     <br />
-    <button onclick="mostrarMensagem()">Enviar</button>
+    <button onclick="mostrarMensagem()">Enviar</button> <br>
 
     <p id="mensagem"></p>
+    <br>
+
+    <h1>Informe os dados do aluno:</h1>
+    <input type="text" id="nome" placeholder="Nome do aluno"> <br>
+    <input type="number" id="nota1" placeholder="Nota 1"> <br>
+    <input type="number" id="nota2" placeholder="Nota 2"> <br>
+    <button onclick="calcularMedia()">Calcular Média</button> <br>
+
+    <p id="resultado"></p>
+    <br>
+
+    <h1>Informe os dados do aluno dnv:</h1>
+    <input type="text" id="nomeAluno" placeholder="Nome"> <br>
+    <input type="number" id="notaA" placeholder="Nota1"> <br>
+    <input type="number" id="notaB" placeholder="Nota2"> <br>
+    <button onclick="avaliarAluno()">Ver resultado</button> <br>
+
+    <p id="mensagemFinal"></p>
 
     <script src="Fixação.js"></script>
   </body>
