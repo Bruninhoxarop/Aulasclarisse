@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 10px 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: auto;
+}
+
+/*gap tbm conhecido como 'espaço' no figma*/
+.header-nav-logo {
+  gap: 32px;
+  color: #3A404E;
+}
+
+.header-nav-links {
+  gap: 40px;
+  color: #667085;
+}
+
+.header-nav-cadastro {
+  gap: 12px;
+  color: #667085;
+}
+
+.header-nav-botao_cadastrar {
+  background-color: #8e2424;
+  color: black;
+  border-radius: 8px;
+  padding: 10px 18px;
+}
