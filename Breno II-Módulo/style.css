@@ -17,7 +17,7 @@ nav {
 /*gap tbm conhecido como 'espaço' no figma*/
 .header-nav-logo {
   gap: 32px;
-  color: #3A404E;
+  color: #3a404e;
 }
 
 .header-nav-links {
@@ -35,4 +35,66 @@ nav {
   color: black;
   border-radius: 8px;
   padding: 10px 18px;
+}
+
+.main-section-sobre_nos {
+  display: flex;
+  gap: 24px;
+  padding: 96px 0px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-section-sobre_nos-texto_cima {
+  color: #8e2424;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main-section-sobre_nos-texto_meio {
+  color: #101828;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.main-section-sobre_nos-texto_baixo {
+  color: #667085;
+  font-size: 20px;
+}
+
+.main-section-dados {
+  display: flex;
+  gap: 64px;
+  padding: 0px 112px 96px 112px;
+}
+
+.main-section-dados-numeros{
+  color: #8e2424;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.main-section-dados-texto{
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.main-section-dados-subtexto{
+  color: #667085;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-section-dados-bloco_numero{
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.main-section-dados-bloco_numero{
+  display: flex;
+  gap: 8px;
 }
