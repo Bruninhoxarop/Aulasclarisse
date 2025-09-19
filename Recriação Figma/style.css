@@ -123,15 +123,29 @@ nav {
   gap: 8px;
 }
 
-.main-section-vagas{
+.main-article-vagas{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 96px 0px 0px 0px;
+  gap: 64px
 }
 
-.main-section-vagas-txt-inicio{
+.main-article-vagas-txt{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.main-article-vagas-txt_e_img{
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-article-vagas-txt-inicio{
   background-color: #8e242410;
   border-radius: 16px;
   color: var(--cor_padrao);
@@ -139,31 +153,94 @@ nav {
   line-height: 20px;
   padding: 4px 12px;
   font-weight: 500;
+  margin: 0px 545px;
 }
 
-.main-section-vagas-txt{
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-}
-
-.main-section-vagas-txt-inicio_e_meio{
+.main-article-vagas-txt-inicio_e_meio{
   display: flex;
   gap: 16px;
   flex-direction: column;
 }
 
-.main-section-vagas-txt-meio{
+.main-article-vagas-txt-meio{
   color: #101828;
   font-size: 36px;
   font-weight: 600;
   line-height: 44px
 }
 
-.main-section-vagas-txt-fim{
+.main-article-vagas-txt-fim{
   color: #667085;
   font-size: 20px;
   line-height: 30px;
+}
+
+.main-article-vagas_design-caixa1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding: 24px 481px 24px 24px;
+}
+
+.main-article-vagas_design-caixa1-p{
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px
+}
+
+.main-article-vagas_design-caixa1-detalhes{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.main-article-vagas_design-caixa2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding: 24px 481px 24px 24px;
+}
+
+.main-article-vagas_design-caixa2-p{
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.main-article-vagas_design-caixa2-detalhes{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.main-article-vagas_design-p{
+  color: #101828;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.main-article-vagas_design{
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: start;
 }
 
 footer{
