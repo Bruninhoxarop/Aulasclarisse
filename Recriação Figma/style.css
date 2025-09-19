@@ -123,6 +123,49 @@ nav {
   gap: 8px;
 }
 
+.main-section-vagas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 96px 0px 0px 0px;
+}
+
+.main-section-vagas-txt-inicio{
+  background-color: #8e242410;
+  border-radius: 16px;
+  color: var(--cor_padrao);
+  font-size: 14px;
+  line-height: 20px;
+  padding: 4px 12px;
+  font-weight: 500;
+}
+
+.main-section-vagas-txt{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.main-section-vagas-txt-inicio_e_meio{
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.main-section-vagas-txt-meio{
+  color: #101828;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px
+}
+
+.main-section-vagas-txt-fim{
+  color: #667085;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 footer{
   gap: 40px;
   padding: 96px 0px 96px 0px;
@@ -172,3 +215,15 @@ input{
   font-size: 16px;
   line-height: 24px;
 }
+
+
+
+/* 100: Thin (Hairline)
+200: Extra Light (Ultra Light)
+300: Light (Fino)
+400: Normal (Regular)
+500: Medium
+600: Semi Bold (Demi Bold)
+700: Bold
+800: Extra Bold (Ultra Bold)
+900: Black (Heavy) */
