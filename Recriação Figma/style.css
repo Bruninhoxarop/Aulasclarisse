@@ -128,7 +128,7 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 96px 0px 0px 0px;
+  padding: 96px 0px 96px 0px;
   gap: 64px
 }
 
@@ -243,6 +243,167 @@ nav {
   align-items: start;
 }
 
+.main-article-vagas_dev_software-caixa1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding: 24px 481px 24px 24px;
+}
+
+.main-article-vagas_dev_software-caixa1-p{
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px
+}
+
+.main-article-vagas_dev_software-caixa1-detalhes{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.main-article-vagas_dev_software-caixa2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding: 24px 481px 24px 24px;
+}
+
+.main-article-vagas_dev_software-caixa2-p{
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.main-article-vagas_dev_software-caixa2-detalhes{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.main-article-vagas_dev_software-caixa3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding: 24px 481px 24px 24px;
+}
+
+.main-article-vagas_dev_software-caixa3-p{
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.main-article-vagas_dev_software-caixa3-detalhes{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.main-article-vagas_dev_software-p{
+  color: #101828;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.main-article-vagas_dev_software{
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: start;
+}
+
+.main-article-vagas_abertas{
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+}
+
+
+
+
+.main-article-depoimentos{
+  display: flex;
+  padding: 0px 112px 96px 112px;
+  justify-content: center;
+}
+
+.main-article-depoimentos-caixa{
+  display: flex;
+  padding: 64px;
+  gap: 32px;
+  background-color: #c3191908;
+  width: 1216px;
+  border-radius: 16px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-article-depoimentos-caixa1-txt_subtxt{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-article-depoimentos-caixa1-txt{
+  color: var(--cor_padrao);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.main-article-depoimentos-caixa1-subtxt{
+  color: #101828;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.main-article-depoimentos-caixa2{
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-article-depoimentos-caixa2-txt{
+  color: #101828;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.main-article-depoimentos-caixa2-subtxt{
+  color: #667085;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 footer{
   gap: 40px;
   padding: 96px 0px 96px 0px;
@@ -250,6 +411,7 @@ footer{
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #F9FAFB;
 }
 
 .footer-p-texto{
