@@ -1,0 +1,6 @@
+rem: unidade relativa ao tamanho da fonte de um html. por padrão, a maioria dos navegadores
+define o tamanho da fonte como 16px, ent 1rem equivale a 16px. definindo rem seria: 1.5rem (16 * 1.5 = 24px)
+
+vh e vw: unidades relativas à altura e largura da tela do site, vh para altura e vw para largura.
+a medida vh é igual a 1/100 da altura da tela. ent se por exemplo, a altura do navegador for 900px,
+1vh equivale a 9px. E a largura da tela é 750px, 1vw equivale a 7.5px.
